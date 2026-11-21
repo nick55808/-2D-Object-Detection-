@@ -1,0 +1,15 @@
+# Install torch and torchvision from the matched PyTorch CUDA index before
+# installing this file. Keeping them out of this file prevents pip from
+# replacing the CUDA wheel with an unintended build from another index.
+# Recommended build: torch 2.8.0 + torchvision 0.23.0 + cu126.
+transformers
+ultralytics
+pycocotools
+opencv-python
+matplotlib
+numpy
+pandas
+pyarrow
+pillow
+tqdm
+reportlab

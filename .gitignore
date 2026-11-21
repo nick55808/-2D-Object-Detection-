@@ -1,0 +1,31 @@
+# Python environments and cache
+.venv/
+__pycache__/
+*.py[cod]
+
+# Machine-specific configuration
+config.json
+.env
+
+# Datasets
+coco2017/
+Kitti/
+datasets/
+DeepDataMiningLearning/
+
+# Model weights and deployment files
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# Generated experiment outputs
+results/
+
+# Videos and archives
+*.mp4
+*.zip
+
+# Editor files
+.vscode/
+.idea/
